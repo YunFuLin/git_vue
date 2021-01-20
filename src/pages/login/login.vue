@@ -2,8 +2,8 @@
   <div class="login">
     <div class="headimg"></div>
     <div class="inputbox">
-      <input type="text" placeholder="用户名" >
-      <input type="password" placeholder="密码">
+      <input type="text" placeholder="用户名" v-model="username">
+      <input type="password" placeholder="密码" v-model="password">
     </div>
   </div>
 </template>
@@ -13,8 +13,7 @@ export default {
   data () {
     return {
       username:'admin',
-      password:'123456',
-      me:'123'
+      password:'123456'
     }
   }
 }
