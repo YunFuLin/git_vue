@@ -14,7 +14,8 @@ export default {
     return {
       username:'admin',
       password:'123456',
-      me:'123'
+      me:'123',
+      pc:'fit'
     }
   }
 }
