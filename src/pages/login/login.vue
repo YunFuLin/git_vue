@@ -13,7 +13,8 @@ export default {
   data () {
     return {
       username:'admin',
-      password:'123456'
+      password:'123456',
+      me:'123'
     }
   }
 }
