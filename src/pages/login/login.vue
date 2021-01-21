@@ -20,6 +20,8 @@ export default {
   methods:{
     login(){
       console.log('用户名:'+this.username,'密码:'+this.password);
+      this.$vux.toast.text('登录成功');
+      this.$router.push({path:'/home'})
     }
   }
 }
