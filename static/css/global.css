@@ -13,7 +13,7 @@ em{ text-transform:none; color:#000; font-weight:bold; font-style:normal;}
 .clear{ width:0; height:0; display:block; clear:both; overflow:hidden;}
 .clearfix::after{ content: "."; display: block; height: 0; clear: both; visibility: hidden; overflow:hidden;}
 textarea{ resize:none;}
-input,textarea,button,select{ -webkit-appearance:none;}
+input,textarea,button,select{ -webkit-appearance:none;padding: 0;}
 input:focus,textarea:focus,select:focus{ outline:none;}
 ul, ol, dl{ list-style:none; display:block;}
 dd, dt, li{ display:block;}
