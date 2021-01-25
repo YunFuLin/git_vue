@@ -10,15 +10,11 @@ import Message from '@/pages/message/message' //信息
 import Me from '@/pages/me/me' //我的
 
 const router =  new VueRouter({
+  mode: 'history',
   routes: [
-    {
-      path: '/',
-      redirect:{path:'/login'}
-    },
-    {
-      path: '/login',
-      component: Login,
-    },
+    {path: '/',redirect:{path:'/login'}},
+    {path: '/login',component: Login},
+    {path: '/404',component:Home},
     {
       path: '/home',
       component: Home,

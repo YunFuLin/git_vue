@@ -7,7 +7,6 @@
 
 <script>
 import footerNav from '@/components/footerNav'
-import FooterNav from './components/footerNav.vue'
 
 export default {
   name: 'App',

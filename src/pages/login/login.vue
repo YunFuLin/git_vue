@@ -19,8 +19,8 @@ export default {
   },
   methods:{
     login(){
-      console.log('用户名:'+this.username,'密码:'+this.password);
-      this.$vux.toast.text('登录成功');
+      // console.log('用户名:'+this.username,'密码:'+this.password);
+      this.$vux.toast.show({type:'success',text:'登录成功',width:'110px'});
       this.$router.push({path:'/home'})
     }
   }
