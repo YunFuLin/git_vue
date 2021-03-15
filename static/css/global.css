@@ -1,19 +1,25 @@
-/*全局样式*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, span, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, section, nav, header, footer{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;text-align:inherit;line-height:inherit;}
-html{ width:100%;  -webkit-text-size-adjust:none;}
-::-webkit-scrollbar{ width:0;}
-body{ color:#666; position:relative;font-family:"微软雅黑","Microsoft YaHei";}
-strong{ font-weight:bold;}
-a{ text-decoration:none; text-transform:none; color:#000;}
-img{vertical-align:top;}
-a img{ border:0;}
-/* a:hover{ } */
-a span{ cursor:pointer;}
-em{ text-transform:none; color:#000; font-weight:bold; font-style:normal;}
-.clear{ width:0; height:0; display:block; clear:both; overflow:hidden;}
-.clearfix::after{ content: "."; display: block; height: 0; clear: both; visibility: hidden; overflow:hidden;}
-textarea{ resize:none;}
-input,textarea,button,select{ -webkit-appearance:none;padding: 0;}
-input:focus,textarea:focus,select:focus{ outline:none;}
-ul, ol, dl{ list-style:none; display:block;}
-dd, dt, li{ display:block;}
+.clear{
+  width:0;
+  height:0;
+  display:block;
+  clear:both;
+  overflow:hidden;
+}
+
+.clearfix::after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow:hidden;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a.active {
+  text-decoration: none;
+}

@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import '../static/css/reset.css' //引入公共样式
 import '../static/css/global.css' //引入公共样式
 import 'lib-flexible/flexible' //移动端适配lib-flexible
 

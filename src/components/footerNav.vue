@@ -54,6 +54,7 @@ export default{
   bottom: 0;
   width: 100%;
   height: 50px;
+  background: #fff;
   border-top: 1px solid #c3c3c3;
   display: flex;
   justify-content: space-between;
